@@ -1,0 +1,29 @@
+table{
+  background-color: black;
+}
+table row width{
+  200;
+}
+p{
+  color:purple;
+  font-family: arial
+}
+h1{
+  font-family:arial;
+}
+a:hover{
+  background-color: aqua;
+}
+a{
+  padding: 5px;
+}
+table size{
+  width: 200%
+  height: 150%
+}
+h1{
+  background-color: purple
+}
+title{
+  background-color: black
+}
