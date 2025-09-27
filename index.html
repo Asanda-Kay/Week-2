@@ -4,88 +4,38 @@
 <head>
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
   <link rel="stylesheet" href="styles/style.css"/>
-  <title>Hello, World!</title>
-   <link rel="icon" type="asandatt.jpg" href="favicon.png"
+  <title>register now</title>
+  <style>
+  body{
+    font-family:arial,sans-serif
+    </style>
 </head>
 <body>
   <h1>
-    about me
-  </h1> <br>
-  <p>hello and welcome</p>
-  <a href="week2index.html">click here to go back</a>
-  <img src="gallery_camera/Asandatt.jpeg" height="100" width="150" alt="my selfie"
-    <br> <p>how many skills i have</p> 
-    <ol>
-      <li>first skill</li>
-      <li>second skill</li>
-      <li>third skill</li>
-    </ol>
-    <p>type of skils</p>
-    <ol type="A">
-      <li>communications</li>
-      <li>public relation</li>
-      <li>web development</li>
-    </ol>
-    <p>qualification type of my skills respectively</p>
-    <ul>
-      <li>Diploma</li>
-      <li>Diploma</li>
-      <li>certificate</li>
-    </ul>
-    <p>FAV FRUITS</p>
-    <ul type="square">
-      <li>Apples</li>
-      <li>Banana</li>
-    </ul>
-    <P>WHAT I'VE LEARN FROM THE THIRD SKILL</P>
-    <dl>
-      <dt>HTML</dt>
-      <dd>HyperText Markup Language</dd>
-      <dt>CSS</dt>
-      <dd>Cascading Style Sheet</dd>
-    </dl>
-    <ul>
-      <li>FRUITS
-        <ul>
-          <li>Strawberry</li>
-          <li>Raspberry</li>
-        </ul>
-      </li>
-      <li>VEGETABLES
-        <ul>
-          <li>Carrots</li>
-          <li>Spinach</li>
-        </ul>
-      </li>
-    </ul>
-    <a href="https://google.com">
-      <img src="asandatt.jpg" alt="click to visit example" width="200"
-    </a>
-      <table border="1">
-        <caption>EMPLOYEE DATA</caption>
-        <thead>
-          <tr>
-            <th>NAME</th>
-            <th>AGE</th>
-            <th>COUNTRY</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>John</td>
-            <td>25</td>
-            <td>South Africa</td>
-          </tr>
-          <tr>
-            <td>Jane</td>
-            <td>30</td>
-            <td>Canada</td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-      <br>
-      <button>useful</button>
-      <button>not useful</button>
+    building & managing HTML5 forms
+  </h1>
+  <input type="text" name="username" placeholder="enter your name">
+  <textarea name="comments" rows="4" cols="50" placeholder="write your comment here"></textarea>
+  <button type="submit">submit</button>
+  <select name="country">
+    <option value="us">united state</option>
+    <option value="uk">united kingdom</option>
+  </select>
+  <label for="email">email:</label>
+  <input type="email" id="email" name="email">
+  <input type="text" name="username"required>
+  <input type="text" name="zip" pattern="[0-9]{5}" title="enter a 5 digit zip code">
+  <input type="password" name="password" minlength="8" maxlength="20">
+  <input type="email" name="usermail required">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+  <fieldset>
+    <legend>personal information</legend>
+    <label for="fname">first name:</label>
+    <input type="text" id="fname" name="fname">
+  </fieldset>
+  <p class="highlight">please make sure the information filled is correct!</p>
+  <div id="unique">unique box</div>
+  <p style="color:red">check your details</p>
 </body>
 </html>
